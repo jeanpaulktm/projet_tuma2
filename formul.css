@@ -1,0 +1,122 @@
+body{
+    margin: 1%;
+    padding: 0%;
+    
+    background-image: url('jpk/bgnd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+header{
+    color:rgb(77, 67, 67);
+    padding: 0px;
+    border: 1%;
+}
+header h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10;
+    
+    color: rgb(255, 255, 255);
+} 
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0,5%;
+    overflow: hidden;
+    
+    border-radius: 5px 5px 5px 5px ;
+    
+
+}
+nav li{
+    float: left;
+    
+}
+nav li a {
+    display:block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 460px;
+    background-color: rgb(1, 187, 94);
+    width: 120px;
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 10px ;
+    
+   
+}
+nav li a:hover{
+    background: color #111;
+    animation: blink 1s;
+    color: rgb(0, 255, 34);
+    border-bottom: #111;
+    
+    
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 5;
+    }
+}
+form{
+    width: 300px;
+    height: 380px;
+    border: 2px solid rgb(252, 252, 253);
+    margin-top:10px;
+    margin-left:350px;
+    align-items: center;
+    box-shadow: 0 0 20px #ffffff;;
+}
+
+.inputC{
+    padding: 5px 20px;
+    margin: 5px 5px;
+    display: flex;
+    width: 190px;
+    height: 20px;
+    border-radius: 1px;
+    border: 1px solid rgb(252, 252, 253);
+    color:rgb(0, 0, 0);
+    margin-top: 10px;
+    align-items: center;
+    background:transparent;
+    margin-left:30px;
+    
+     
+     
+}
+.btn{
+    width: 235px;
+    margin: 3px 5px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border-radius:0px;
+    background-color:rgb(117, 126, 240) ;
+    border: none;
+    margin-top: -2px;
+    margin-left: 30px;
+    height: auto;
+    opacity: 3px;
+}
+h1{
+    margin-left: 60px;
+    margin-top:-30px;
+    color: rgb(201, 9, 9);
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+
+
+
